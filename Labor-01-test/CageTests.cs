@@ -31,8 +31,10 @@ public class CageTests
     [TestCase(-15)]
     public void ConstructorNegTest(int size)
     {
-        // ReSharper disable once ObjectCreationAsStatement
-        Assert.Throws<ArgumentException>(() => new Cage(size));
+        Assert.Throws<ArgumentException>(() =>
+        {
+            Cage cage = new Cage(size);
+        });
     }
 
     [TestCase(3, 1, true)]

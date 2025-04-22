@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labor-01-base", "Labor-01-b
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labor-01-test", "Labor-01-test\Labor-01-test.csproj", "{18A3BE7A-F4F5-4D79-9088-CB6360290B03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labor-02-base", "Labor-02-base\Labor-02-base.csproj", "{B3673385-E520-4F86-B4C0-9FB4B4E9DD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labor-02-test", "Labor-02-test\Labor-02-test.csproj", "{A3C9C976-62EA-43D5-A1A4-373B59EF76F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{18A3BE7A-F4F5-4D79-9088-CB6360290B03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18A3BE7A-F4F5-4D79-9088-CB6360290B03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{18A3BE7A-F4F5-4D79-9088-CB6360290B03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3673385-E520-4F86-B4C0-9FB4B4E9DD56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3673385-E520-4F86-B4C0-9FB4B4E9DD56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3673385-E520-4F86-B4C0-9FB4B4E9DD56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3673385-E520-4F86-B4C0-9FB4B4E9DD56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C9C976-62EA-43D5-A1A4-373B59EF76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C9C976-62EA-43D5-A1A4-373B59EF76F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C9C976-62EA-43D5-A1A4-373B59EF76F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C9C976-62EA-43D5-A1A4-373B59EF76F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
