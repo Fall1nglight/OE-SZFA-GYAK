@@ -1,3 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿namespace Labor_03_base;
 
-Console.WriteLine("Hello, World!");
+internal class Program
+{
+    public static void Main(string[] args)
+    {
+        AparptmentHouse ah = new AparptmentHouse(5, 5);
+    }
+}
